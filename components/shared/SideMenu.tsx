@@ -5,7 +5,7 @@ type MenuItemProps = {
     route: string;
     icon: string;
 }
-
+// linear-gradient(157deg, rgba(123,77,221,1) 0%, rgba(59,57,197,1) 12%, rgba(59,57,197,1) 90%, rgba(76,148,249,1) 100%);
 const MenuItem: FC<MenuItemProps> = ({icon, text, route}) => {
     return (
         <Link href={route}>

@@ -1,7 +1,8 @@
+import { FC } from 'react';
 import Head from 'next/head'
-import SiteLayout from '../components/layouts/siteLayout'
+import SiteLayout from '@layouts/SiteLayout'
 
-export default function Home() {
+const IndexPage: FC = () =>  {
   return (
     <SiteLayout>
     <div className="container">

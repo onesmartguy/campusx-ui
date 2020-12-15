@@ -2,7 +2,7 @@ import { FC, Fragment } from 'react'
 import Head from "next/head";
 import Footer from '../shared/Footer'
 import SideMenu from '../shared/SideMenu'
-export const AdminLayout: FC<{title: string}> = ({ children, title }) => (
+export const AdminLayout: FC<{title?: string}> = ({ children, title }) => (
     <Fragment>
         <Head>
             {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700" /> */}
