@@ -1,0 +1,1612 @@
+﻿
+
+@font-face {
+    font-family: Gibson;
+    src: url("../fonts/gibson/Gibson-Regular.ttf");
+    src: 
+         url("../fonts/gibson/Gibson-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body {
+    font-family: Quicksand;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        padding: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container.body-content {
+        max-width: 1140px !important;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .container.body-content {
+        max-width: 1140px !important;
+    }
+}
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #E01A76;
+}
+
+.card.col-4, .card.col-6 {
+    flex: auto;
+}
+
+.balanceContent70 {
+    font-size: 70px;
+}
+
+.balanceContent60 {
+    font-size: 60px;
+}
+
+.balanceContent50{
+    font-size: 50px;
+}
+
+.balanceTitle {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.overviewCard {
+    min-height: 160px;
+}
+
+.chevronOV {
+    position: relative;
+    top: -1px;
+}
+
+.npTitle {
+    max-width: 95%;
+    line-height: 1.3em;
+}
+
+.upCTitle {
+    max-width: 50%;
+    line-height: 1.2em;
+}
+.upCCost {
+    max-width: 50%;
+}
+/** btn **/
+.btn-secondary {
+    color: #000;
+    background-color: transparent;
+    border: 1.5px solid #000;
+}
+
+.btn-payment {
+    color: #16315A;
+    background-color: transparent !important;
+    border: 1px solid #273856;
+}
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+    color: #000 !important;
+    background-color: transparent !important;
+    border: 1.5px solid #000 !important;
+    opacity: 0.8;
+}
+
+.btn-payment:hover .btn-payment:active .btn-payment:focus {
+    color: #273856;
+    background-color: transparent !important;
+    border: 1px solid #273856;
+}
+
+.btn-primary {
+    color: #0033A0;
+    background-color: #fff;
+    border: 1.5px solid #fff;
+}
+
+    .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+        color: #0033A0 !important;
+        background-color: #fff !important;
+        border: 1.5px solid #fff !important;
+        opacity: 0.8;
+    }
+
+.btn-submit {
+    color: #fff;
+    background-color: #0033A0;
+    border: 1.5px solid #0033A0;
+}
+
+    .btn-submit:hover, .btn-submit:active, .btn-submit:focus {
+        color: #fff !important;
+        background-color: #002880 !important;
+        border: 1.5px solid #002880 !important;
+    }
+
+.btn-CX-submit {
+    color: #fff;
+    background-color: #3B39C5;
+    border: 1.5px solid #3B39C5;
+}
+
+    .btn-CX-submit:hover, .btn-CX-submit:active, .btn-CX-submit:focus {
+        color: #fff !important;
+        background-color: #273856 !important;
+        border: 1.5px solid #273856 !important;
+    }
+
+.btn-CX-submit.btn-CX-Sm {
+    padding: 3px 4px;
+}
+
+
+.btn-CX-secondary {
+    color: #3B39C5;
+    background-color: transparent;
+    border: 1.5px solid #3B39C5;
+}
+
+    .btn-CX-secondary:hover, .btn-CX-secondary:active, .btn-CX-secondary:focus {
+        color: #273856 !important;
+        background-color: transparent !important;
+        border: 1.5px solid #273856 !important;
+    }
+
+    .btn-CX-secondary.btn-CX-Sm {
+        padding: 3px 4px;
+    }
+
+    input {
+        border: 1px solid #d3d3d3;
+        border-radius: 3px;
+        padding: 3px 5px;
+        height: 30px;
+    }
+
+
+.schedInput {
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 13px;
+    width: 60%;
+}
+
+.addCardLink {
+    font-size: 10px;
+}
+
+/** flex **/
+.flx {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-flxStart {
+    justify-content: flex-start;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.align-start {
+    align-items: start;
+}
+
+
+
+.loader {
+    margin: 0 0 2em;
+    height: 100px;
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto 1em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*
+  Set the color of the icon
+*/
+
+
+
+.spinnerComponent {
+    /*    height: 100%;
+    width: 100%;*/
+    /*    top: 0px;
+    left: 0px;*/
+    background-color: #fff;
+    z-index: 3;
+}
+
+
+.min280 {
+    min-height: 200px;
+}
+
+.min210 {
+    min-height: 210px;
+}
+.min250 {
+    min-height: 250px;
+    max-height: 250px;
+}
+
+.min230 {
+    min-height: 230px;
+    max-height: 230px;
+}
+
+.bordRadius3 {
+    border-radius: 3px;
+}
+
+.avaFundsContainer {
+    border: 1px solid #d3d3d3;
+}
+
+.secCodeInput {
+    width: 69px;
+}
+
+.cardMiniHeight{
+    min-height: 250px;
+}
+
+.addCardInput {
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 13px;
+}
+
+.addCreditCardInput {
+    border: 1px solid #d3d3d3;
+    padding: 4px 6px;
+    
+}
+
+#card-number {
+    top: -11px;
+}
+
+.addCreditCardInput > label:not(:first-of-type) {
+    display: none !important;
+}
+
+.amountPrepend {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #3E404C;
+}
+
+.cardAction {
+    letter-spacing:  2px;
+}
+
+.bot0 {
+    bottom: 0;
+}
+
+.fntNav {
+    font-size: 16px;
+}
+
+    .fntNav:hover, .fntNav:active, .fntNav:focus {
+        color: #0033A0 !important;
+        text-decoration: none !important;
+    }
+
+.bordBBlue {
+    border-bottom: 2px solid #0033A0;
+}
+
+.bordBGray {
+    border-bottom: 2px solid #a1a8ae;
+}
+
+.bordBDarkGray {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.latePayTitle {
+    font-size: 16px;
+}
+
+.cardActionWrap {
+    justify-content: flex-end;
+}
+
+.campusXHeader {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.campusXNavWrap {
+    padding: 20px 20px 10px 20px;
+}
+
+.campusXNavTitle {
+    letter-spacing: 2px;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 678px) {
+    .linkContain {
+        margin: 0 20px;
+    }
+    .mobileMenu {
+        font-size: 40px;
+        padding: 4px;
+        border-radius: 3px;
+        background-color: #fff;
+        position: relative;
+        z-index: 2;
+        color: #6C7887;
+        fill: #6C7887;
+        display: block;
+    }
+    .campusXNavWrap {
+        flex-direction: column;
+        position: absolute;
+        z-index: 1;
+        background-color: #fff;
+        top: 29px;
+        border-radius: 3px;
+    }
+
+    .linkWrap {
+        margin: 10px 0px;
+        display :none;
+    }
+    .campusXNavWrap {
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+        height: 0;
+        padding: 0px;
+        transition: all 0.3s ease-in-out;
+    }
+    .campusXNavWrap .campusXNavTitle {
+       opacity: 0; 
+    }
+    .campusXNavWrap.showMenu {
+        height: auto;
+        padding: 20px 20px 10px 20px;
+        transition: all 0.3s ease-in-out; 
+    }
+    .campusXNavWrap.showMenu .campusXNavTitle {
+        opacity: 1;
+        transition: all 0.3s ease-in-out; 
+    }
+        .campusXNavWrap.showMenu .linkWrap {
+            display: block;
+            transition: all 0.3s ease-in-out;
+        }
+}
+
+.campusXFooter {
+    /*bottom: 0; */
+    left: 0;
+    right: 0;
+}
+
+.campusXUser {
+    font-size: 45px;
+}
+
+.campusXContent {
+    margin-top: 100px;
+}
+
+.campusXAdminContent {
+    height: calc(100vh - 220px);
+}
+
+.campusXOnBoardingContent {
+    height: calc(100vh - 220px);
+}
+
+.campusXCard {
+    border-radius: .375rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+.campusXAccountB {
+    border-radius: .375rem;
+    padding: 20px 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+.campusXCardAb .card-content {
+    min-height: 250px;
+    max-height: 250px;
+    padding: 20px 0px;
+}
+
+.campusXCardAf .card-content {
+    min-height: 230px;
+    max-height: 230px;
+}
+
+.eWalletTitle {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.dynamCardContain {
+    padding: 0px 10px 0px 30px;
+}
+
+.dynamCardWrap {
+    max-width: 50%;
+}
+
+
+/**EWallet AB**/
+.ewalletAB .campusXCardWrap .campusXCard.campusXCardAb .card-content .balanceContent60 {
+    font-size: 50px;
+}
+
+.ewalletAB .campusXCardWrap .campusXCard.campusXCardAf .card-content .balanceContent70 {
+    font-size: 60px;
+}
+
+.ewalletAB .campusXCardWrap .campusXCard.campusXCardAb .balanceTitle {
+    font-size: 20px;
+}
+
+.ewalletAB .campusXCardWrap .campusXCard.campusXCardAf .balanceTitle {
+    font-size: 20px;
+}
+@media only screen and (max-width: 991px) {
+    .eWalletTitle {
+        font-size: 16px;
+    }
+    .accountBalanceWrap {
+        padding: 0;
+    }
+    .ewalletAB {
+        order: -1;
+    }
+        .ewalletAB .campusXCardWrap {
+            border-bottom: 2.5px dotted #f1f1f1;
+        }
+
+        .ewalletAB .campusXCardWrap .campusXAccountB.campusXCardAb {
+            border: none;
+            box-shadow: none !important;
+            padding: 8px 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+            .ewalletAB .campusXCardWrap .campusXAccountB.campusXCardAb .balanceTitle {
+                font-size: 16px;
+            }
+            .ewalletAB .campusXCardWrap .campusXAccountB.campusXCardAb .card-content {
+                min-height: auto;
+                max-height: auto;
+                padding: 0px;
+            }
+                .ewalletAB .campusXCardWrap .campusXAccountB.campusXCardAb .card-content .balanceContent60 {
+                    font-size: 25px;
+                }
+
+
+        .ewalletAB .campusXCardWrap .campusXAccountB.campusXCardAf {
+            display: none;
+        }
+            .ewalletAB .campusXCardWrap .campusXAccountB.campusXCardAf .card-content {
+                min-height: auto;
+                max-height: auto;
+            }
+}
+
+@media only screen and (max-width: 678px) {
+    .dynamCardWrap {
+        max-width: 100%;
+    }
+    .dynamCardContain {
+        flex-direction: column;
+        padding: 0px 10px 0px 10px;
+    }
+    .cardActionContain {
+        margin-top: 20px;
+    }
+    .cardActionWrap {
+        justify-content: center;
+    }
+}
+
+
+
+.campusXCreditImage {
+    height: 20px
+}
+
+.campusXCardContent {
+    min-height: 169px;
+    max-height: 169px;
+}
+
+.campusXCardContent1 {
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.campusXCardContent2 {
+    min-height: 170px;
+    max-height: 170px;
+}
+
+.campusXCardContent3 {
+    min-height: 185px;
+    max-height: 185px;
+}
+
+.campusXCardTitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.boisBar {
+    border-top: 5px solid #0033A0;
+}
+
+.boiseFooterBar {
+    border-top: 8px solid #D64309;
+}
+
+.latePayTitle {
+    font-size: 16px;
+}
+
+
+.confirmationPopContainer {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 669;
+}
+
+.confirmationTitle {
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+
+.campPayIconWrap {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    left: 38%;
+    right: 0;
+    bottom: 98%;
+}
+
+.campPayIcon {
+    font-size: 64px;
+}
+
+.confirmationWrap {
+    max-width: 100%;
+    width: 435px;
+    min-height: 210px;
+}
+
+.addCardWrap {
+    max-width: 100%;
+    min-height: 210px;
+}
+
+.addCardIcon {
+    font-size: 32px;
+}
+
+.addIconWrap {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    left: 42%;
+    right: 0;
+    bottom: 98%;
+}
+
+.confirmationContent {
+    min-height: 210px
+}
+
+.campPayTotals {
+    max-width: 75%;
+}
+
+.confirmationLoader {
+    z-index: 999;
+    background-color: transparent !important;
+}
+
+    .confirmationLoader div .spinner-border {
+        width: 4rem;
+        height: 4rem;
+    }
+
+
+
+.slide-enter {
+    transform: scale(.2);
+    opacity: 0;
+}
+
+
+.slide-enter.slide-enter-active {
+    transform: scale(1);
+    opacity: 1;
+    transition: transform .5s ease-in-out, opacity .6s ease-in-out;
+}
+
+.slide-leave {
+    transform: scale(0);
+}
+
+    .slide-leave.slide-leave-active {
+        transform: scale(0);
+        transition: all 0s ease-in-out;
+        height: 0;
+    }
+
+.custIcon {
+    font-size: 120px;
+}
+
+.bordBot2 {
+    border-bottom: 2.5px dotted #f1f1f1;
+}
+
+.opa3 {
+    opacity: 0.3;
+}
+
+.statementsAccordian .card .card-header {
+    background-color: transparent;
+    border: none;
+}
+.statementsAccordian .card  {
+    border: none;
+}
+
+.statementsIcon {
+    position: relative;
+    top: 1px;
+    transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out;
+}
+[aria-expanded="false"] .statementsIcon {
+    transform: rotate(-90deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+.filterStatementsContain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filterStatementsWrap {
+    display: flex;
+    align-items: center;
+}
+.filterStatements {
+    position: relative;
+    top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+    .filterLabel {
+        margin-right: 10px;
+    }
+
+    .filterStatements select, .filterStatements input {
+        background-color: #F4F5FA;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid #d3d3d3;
+    }
+
+.statementsHeader:hover {
+    background-color: #F4F5FA;
+    transition: background-color 0.3s ease-in-out;
+}
+.historySearch {
+    width: 50%;
+}
+
+    .historySearch input {
+        width: 100%;
+        height: 40px;
+    }
+
+.filterBy {
+    margin-right: 30px;
+}
+.serviceType {
+    margin-right: 10px;
+}
+
+.statementTableContain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 690px) {
+    .filterStatementsContain {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .filterStatementsWrap {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .filterStatements {
+        position: relative;
+        top: 0;
+        flex-direction: column;
+        align-items: baseline;
+        width: 100%;
+    }
+    .historySearch {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .filterStatements select {
+        width: 100%;
+    }
+    .filterLabel {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .filterBy {
+        margin-right: 0px;
+    }
+
+    .serviceType {
+        margin-right: 0px;
+    }
+    .statementTableContain {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .statementTableWrap {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+        .statementTableWrap p {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+    .statementsTitle {
+        flex-direction: column;
+    }
+    .statementsBy {
+        margin-top: 20px;
+    }
+}
+
+
+/**SIDE NAV**/
+
+.sideNav {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    z-index: 9999;
+    padding: 20px;
+    width: 170px;
+}
+
+
+/*.configNav {
+    position: fixed;
+    left: 0;
+    height: 100vh;
+    z-index: 998;
+    padding: 20px;
+    min-width: 500px;
+    left: 169px;
+}*/
+
+
+.accountServiceLinks {
+    bottom: 70px;
+}
+
+
+.cardAnim .iconACWrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+    .cardAnim .iconACWrap .campusXCardIcon {
+        height: 35px;
+        width: 35px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .cardAnim .iconACWrap .campusXCardTitle {
+        font-size: 20px;
+        transition: all 0.5s ease-in-out;
+    }
+
+
+.iconACContain {
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.iconACWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+.campusXCardTitle {
+    font-size: 24px;
+    transition: all 0.5s ease-in-out;
+}
+.campusXCardIcon {
+    height: 50px;
+    width: 50px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.onboardingContainer {
+    background-color: #ffffff;
+    height: 100vh
+}
+
+.onboardCardHeader {
+    background-color: transparent;
+}
+
+.loginDefaultNavbar {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    color: #16315A;
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #060b26;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-menu {
+    background: rgb(123,77,221);
+    background: linear-gradient(157deg, rgba(123,77,221,1) 0%, rgba(59,57,197,1) 12%, rgba(59,57,197,1) 90%, rgba(76,148,249,1) 100%);
+    width: 125px;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0%;
+    transition: 850ms;
+}
+
+    .nav-menu.active {
+        left: -100%;
+        transition: 350ms;
+    }
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    margin: 10px 0px;
+}
+
+    .nav-text a {
+        text-decoration: none;
+        color: #f5f5f5;
+        font-size: 14px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 15px 15px;
+        flex-direction: column;
+    }
+
+
+        .nav-text a:hover {
+            background-color: #3533b1;
+            color: #fff;
+        }
+
+        .nav-text a svg {
+            font-size: 25px;
+        }
+
+        .nav-menu-items {
+            width: 100%;
+        }
+.nav-text a.activeClr {
+    background-color: #3533b1;
+    color: #fff;
+    box-shadow: inset 0 .2rem 0.7rem rgba(0,0,0,.15) !important;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-toggle {
+    background-color: #060b26;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.admin-menu {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    max-width: 100%;
+}
+
+    .admin-menu.active {
+        left: 125px;
+        transition: 350ms;
+    }
+
+.admin-menu .configServices {
+    width: 450px;
+}
+
+
+.acInput {
+    height: 30px;
+}
+
+.optionInput {
+    height: 30px;
+}
+
+.opWidth {
+    width: 48%;
+}
+
+.m-H100-VH {
+    min-height: 100vh;
+}
+
+.input-group-text.adminCost {
+    height: 30px;
+    background-color: #0033A0;
+    color: #fff;
+    border-radius: 3px 0px 0px 3px;
+    border: none;
+    z-index: 1;
+}
+
+.configHeight {
+    height: 80%;
+    overflow-y: auto;
+}
+
+    .configHeight::-webkit-scrollbar {
+        width: 4px;
+    }
+
+/* Track */
+.configHeight::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #d3d3d3;
+    border-radius: 10px;
+}
+
+/* Handle */
+.configHeight::-webkit-scrollbar-thumb {
+    background: #273856;
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    .configHeight::-webkit-scrollbar-thumb:hover {
+        background: #273856;
+    }
+
+.navScroll {
+    height: 90%;
+    overflow-y: auto;
+}
+
+    .navScroll::-webkit-scrollbar {
+        width: 4px;
+    }
+
+/* Handle */
+    .navScroll::-webkit-scrollbar-thumb {
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #273856;
+    }
+
+
+.addOptionBtn, .addOptionBtn:active, .addOptionBtn:focus {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+    .addOptionBtn span {
+        border: 1px solid #0033A0;
+        padding: 2px 4px;
+        border-radius: 3px;
+        background-color: #0033A0;
+        color: #fff;
+        margin-right: 3px;
+    }
+
+    .pagination li a {
+        color: #0033A0;
+        font-weight: 500;
+        text-decoration: none;
+        padding: 3px 10px;
+        background-color: #fff;
+    }
+
+.pagination li.active a, .pagination li a:hover {
+    background-color: #0033A0;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+.previous-page {
+    border-right: 1px solid #0033A0;
+}
+
+.next-page {
+    border-left: 1px solid #0033A0;
+}
+
+.last-page a, .first-page a {
+    padding: 3px 5px;
+}
+
+
+
+.customSelect {
+    border-radius: 5px !important;
+    padding-left: 25px !important;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 2%;
+    background-position-y: 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.brand-logo {
+    width: auto;
+    height: 48px;
+}
+
+.displayName {
+    margin-right: 10px;
+}
+.displayNameContain {
+    margin-right: 20px;
+}
+@media only screen and (max-width: 690px) {
+    .brand-logo {
+        width: 100%;
+        height: auto;
+    }
+    .displayNameContain {
+        margin-right: 0px;
+    }
+    .displayName {
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .campusXUser {
+        font-size: 25px;
+    }
+}
+
+.brandingNavContainer {
+    min-width: 100px;
+}
+
+.brandingLink {
+    border-bottom: 1px solid #3B39C5;
+}
+
+.collegeBrandingNav {
+    max-width: 65%;
+    margin: auto 0;
+    width: 100%;
+}
+
+.brandingTitle input, .brandingTitle select {
+    background-color: #F8F8FB;
+    border: none;
+    padding: 0px 15px;
+}
+
+    .brandingTitle select {
+        height: 30px;
+    }
+
+        .brandingTitle input:focus, .brandingTitle input:active, .brandingTitle select:focus, .brandingTitle select:active {
+            outline: none;
+            border: none;
+            box-shadow: 0 .1rem 0.3rem rgba(0,0,0,.15) !important;
+            transition: box-shadow 0.2s ease-in-out;
+        }
+
+.brandingSubmit {
+    margin: 0 0 0 auto;
+    width: 200px;
+    padding-top: 50px;
+}
+
+.brandingSubmit button {
+    width: 50%;
+}
+
+#admin {
+    padding-left: 125px;
+}
+
+.adminLogo {
+    position: relative;
+    left: 100px;
+}
+
+
+.logoLink, .logoLink:hover, .logoLink:focus, .logoLink:active {
+    border: none;
+    background-color: transparent;
+}
+
+.brandingColor .colorBlock,
+.brandingColor .colorBlock:active,
+.brandingColor .colorBlock:focus {
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.1);
+    outline: none !important;
+}
+
+.brandingColor input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.brandingColor input[type="color"]::-webkit-color-swatch {
+    border: none;
+}
+
+.brandingColor input[type="text"] {
+    border-radius: 0px 3px 3px 0px;
+}
+
+.brandingColorWrap {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.adminInput {
+    background-color: #F8F8FB;
+    border: none;
+    padding: 0px 15px;
+}
+
+    .adminInput:focus, .adminInput:active {
+        outline: none;
+        border: none;
+        box-shadow: 0 .1rem 0.3rem rgba(0,0,0,.15) !important;
+        transition: box-shadow 0.2s ease-in-out;
+    }
+
+
+    /**admin dashboard**/
+
+.adminReports .card {
+    padding: 10px 20px 20px;
+    border-radius: 30px;
+/*    height: 150px;*/
+}
+
+.adminReports .revTotals{
+    width: 40%;
+}
+
+.adminReports .userStatus {
+    width: 30%;
+}
+
+.adminReports .actStudent {
+    width: 20%;
+}
+
+.reportTitle div {
+    font-size: 12px;
+}
+
+.elipIcon svg {
+    font-size: 30px;
+    color: #3B39C5;
+    font-weight: 600;
+}
+
+.reportImg {
+    width: 100px;
+}
+
+.reportImgWeek {
+    width: 78px;
+}
+
+.reportUp svg {
+    color: #028D5D;
+    font-size: 13px;
+}
+
+.reportDown svg {
+    color: #E60000;
+    font-size: 13px;
+}
+
+.reportUp div, .reportDown div {
+    font-size: 10px;
+}
+
+.revNumbers {
+    font-size: 30px;
+}
+
+.revDay {
+    font-size: 10px;
+}
+
+.bordR {
+    border-right: 1px solid #33558B;
+}
+
+.reportThree img {
+    width: 90%;
+}
+
+.tableTitle {
+    font-size: 12px;
+    border: none !important;
+}
+
+/**Tables**/
+
+.Rtable {
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.Rtable-cell {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+    .Rtable-cell.Rtable--2cols {
+        width: 50%;
+    }
+
+    .Rtable-cell.Rtable--3cols {
+        width: 33.33%;
+    }
+
+    .Rtable-cell.Rtable3 {
+        width: 30%;
+    }
+
+    .Rtable-cell.Rtable4-5 {
+        width: 45%;
+    }
+    .Rtable-cell.Rtable2-5 {
+        width: 25%;
+    }
+
+    .Rtable-cell.Rtable2 {
+        width: 20%;
+    }
+
+    .Rtable-cell.Rtable1-5 {
+        width: 15%;
+    }
+    .Rtable-cell.Rtable1-2 {
+        width: 12%;
+    }
+    .Rtable-cell.Rtable1 {
+        width: 10%;
+    }
+
+    /**Admin Pagination**/
+.adminPagination .pagination li a {
+    color: #273856;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 3px 10px;
+    background-color: #fff;
+}
+.adminPagination .pagination li.active a, .adminPagination .pagination li a:hover {
+    background-color: #273856;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+/**Add User**/
+.userInput {
+    width: 95%;
+}
+
+/**file upload**/
+.file-browse-btn {
+    width: 105px;
+    margin-top: 10px;
+}
+
+.file-upload {
+    height: 160px;
+    width: 100%;
+    background-color: #F8F8FB;
+    border: 2px dashed #d3d3d3;
+}
+/*    .file-upload[type='file'] {
+        color: transparent;
+    }*/
+
+
+    .file-upload::-webkit-file-upload-button {
+        display: none;
+    }
+
+.upload-icon {
+    font-size: 40px;
+    color: #b1b1b1;
+}
+.upload-label {
+    color: #b1b1b1;
+}
+
+
+.feePerc {
+    position: relative;
+    right: 1px;
+    height: 30px;
+    width: 30px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: #3B39C5;
+}
+.feeFlat {
+    position: relative;
+    left: 1px;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: #3B39C5;
+}
+/**Switch**/
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+    /* Hide default HTML checkbox */
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f1f1f1;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 21px;
+        width: 21px;
+        left: 2px;
+        bottom: 2px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+    }
+
+.switch input:checked + .slider {
+    background-color: #3B39C5;
+}
+
+.switch input:focus + .slider {
+    box-shadow: 0 0 1px #3B39C5;
+}
+
+.switch input:checked + .slider.activeStatus {
+    background-color: #009688;
+}
+.switch input:focus + .slider.activeStatus {
+    box-shadow: 0 0 1px #009688;
+}
+
+.switch input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.accountStatus.draftAcc {
+    color: #707070;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.accountStatus.activeAcc{
+    color: #009688;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+/**Status**/
+.tableStatus {
+    max-width: 55px;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 500;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.tableStatus.csActive {
+    background-color: #009688;
+
+}
+
+.tableStatus.csInactive {
+    background-color: #000;
+}
+
+.dashboardSearch {
+    width: 100%;
+    margin-right: 20px;
+    background-color: #F8F8FB;
+    border: none;
+    padding: 0px 15px;
+}
+
+.dashboardSearch:focus, .dashboardSearch:active {
+    outline: none;
+    border: none;
+    box-shadow: 0 .1rem 0.3rem rgba(0,0,0,.15) !important;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.newBtnDash {
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+}
+
+.newIcon {
+    position: relative;
+    left: -5px;
+    font-size: 14px;
+}
+
+/**Admin add college**/
+.addCollegeForm {
+    min-width: 860px;
+    min-height: 300px;
+
+}
+
+.schoolIcon {
+    width: 50px;
+}
+
+.addIconWrap.schoolIconWrap {
+    left: 44%;
+}

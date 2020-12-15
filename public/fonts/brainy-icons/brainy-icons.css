@@ -1,0 +1,1145 @@
+@font-face {
+	font-family: 'brainy-icons';
+	src:url('brainy-icons.eot?-vmair');
+	src:url('brainy-icons.eot?#iefix-vmairx') format('embedded-opentype'),
+		url('brainy-icons.woff?-vmairx') format('woff'),
+		url('brainy-icons.ttf?-vmairx') format('truetype'),
+		url('brainy-icons.svg?-vmairx#brainy-icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.brainy {
+	font-family: 'brainy-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hdg-school:before {
+	content: "\e600";
+}
+
+.hdg-class:before {
+	content: "\e601";
+}
+
+.hdg-pupil:before {
+	content: "\e602";
+}
+
+.hdg-school-bus:before {
+	content: "\e603";
+}
+
+.hdg-school-bag:before {
+	content: "\e604";
+}
+
+.hdg-pocket:before {
+	content: "\e605";
+}
+
+.hdg-pencil:before {
+	content: "\e606";
+}
+
+.hdg-pen:before {
+	content: "\e607";
+}
+
+.hdg-quill:before {
+	content: "\e608";
+}
+
+.hdg-marker:before {
+	content: "\e609";
+}
+
+.hdg-ruler-compasses:before {
+	content: "\e60a";
+}
+
+.hdg-ruler-pencil:before {
+	content: "\e60b";
+}
+
+.hdg-pens-pencils:before {
+	content: "\e60c";
+}
+
+.hdg-compasses:before {
+	content: "\e60d";
+}
+
+.hdg-eraser:before {
+	content: "\e60e";
+}
+
+.hdg-scissors:before {
+	content: "\e60f";
+}
+
+.hdg-pin:before {
+	content: "\e610";
+}
+
+.hdg-paper-clip:before {
+	content: "\e611";
+}
+
+.hdg-paper-plane:before {
+	content: "\e612";
+}
+
+.hdg-lamp:before {
+	content: "\e613";
+}
+
+.hdg-calculator:before {
+	content: "\e614";
+}
+
+.hdg-printer:before {
+	content: "\e615";
+}
+
+.hdg-mouse:before {
+	content: "\e616";
+}
+
+.hdg-glasses:before {
+	content: "\e617";
+}
+
+.hdg-glasses02:before {
+	content: "\e618";
+}
+
+.hdg-aim:before {
+	content: "\e619";
+}
+
+.hdg-puzzle:before {
+	content: "\e61a";
+}
+
+.hdg-lamp2:before {
+	content: "\e61b";
+}
+
+.hdg-lamp-green:before {
+	content: "\e61c";
+}
+
+.hdg-flash:before {
+	content: "\e61d";
+}
+
+.hdg-bomb:before {
+	content: "\e61e";
+}
+
+.hdg-clock:before {
+	content: "\e61f";
+}
+
+.hdg-alarm:before {
+	content: "\e620";
+}
+
+.hdg-alarm02:before {
+	content: "\e621";
+}
+
+.hdg-hourglass:before {
+	content: "\e622";
+}
+
+.hdg-magnifying-glass:before {
+	content: "\e623";
+}
+
+.hdg-binoculars:before {
+	content: "\e624";
+}
+
+.hdg-briefcase:before {
+	content: "\e625";
+}
+
+.hdg-exclamation:before {
+	content: "\e626";
+}
+
+.hdg-question:before {
+	content: "\e627";
+}
+
+.hdg-headphones:before {
+	content: "\e628";
+}
+
+.hdg-spech-bubbles:before {
+	content: "\e629";
+}
+
+.hdg-apple:before {
+	content: "\e62a";
+}
+
+.hdg-apple02:before {
+	content: "\e62b";
+}
+
+.hdg-coffee:before {
+	content: "\e62c";
+}
+
+.hdg-globe:before {
+	content: "\e62d";
+}
+
+.hdg-globe02:before {
+	content: "\e62e";
+}
+
+.hdg-abacus:before {
+	content: "\e62f";
+}
+
+.hdg-calculator2:before {
+	content: "\e630";
+}
+
+.hdg-bell01:before {
+	content: "\e631";
+}
+
+.hdg-bell02:before {
+	content: "\e632";
+}
+
+.hdg-blackboard01:before {
+	content: "\e633";
+}
+
+.hdg-blackboard02:before {
+	content: "\e634";
+}
+
+.hdg-blackboard03:before {
+	content: "\e635";
+}
+
+.hdg-desk:before {
+	content: "\e636";
+}
+
+.hdg-chair:before {
+	content: "\e637";
+}
+
+.hdg-alphabet:before {
+	content: "\e638";
+}
+
+.hdg-book01:before {
+	content: "\e639";
+}
+
+.hdg-book02:before {
+	content: "\e63a";
+}
+
+.hdg-book03:before {
+	content: "\e63b";
+}
+
+.hdg-book04:before {
+	content: "\e63c";
+}
+
+.hdg-book05:before {
+	content: "\e63d";
+}
+
+.hdg-book06:before {
+	content: "\e63e";
+}
+
+.hdg-notebook:before {
+	content: "\e63f";
+}
+
+.hdg-bookshelf:before {
+	content: "\e640";
+}
+
+.hdg-folders:before {
+	content: "\e641";
+}
+
+.hdg-drawer:before {
+	content: "\e642";
+}
+
+.hdg-folder01:before {
+	content: "\e643";
+}
+
+.hdg-folder02:before {
+	content: "\e644";
+}
+
+.hdg-folder03:before {
+	content: "\e645";
+}
+
+.hdg-file01:before {
+	content: "\e646";
+}
+
+.hdg-file02:before {
+	content: "\e647";
+}
+
+.hdg-file03:before {
+	content: "\e648";
+}
+
+.hdg-file04:before {
+	content: "\e649";
+}
+
+.hdg-paper-a:before {
+	content: "\e64a";
+}
+
+.hdg-paper-f:before {
+	content: "\e64b";
+}
+
+.hdg-paper-pass:before {
+	content: "\e64c";
+}
+
+.hdg-paper-fail:before {
+	content: "\e64d";
+}
+
+.hdg-paper-five:before {
+	content: "\e64e";
+}
+
+.hdg-paper-two:before {
+	content: "\e64f";
+}
+
+.hdg-file05:before {
+	content: "\e650";
+}
+
+.hdg-checklist01:before {
+	content: "\e651";
+}
+
+.hdg-checklist02:before {
+	content: "\e652";
+}
+
+.hdg-file06:before {
+	content: "\e653";
+}
+
+.hdg-file07:before {
+	content: "\e654";
+}
+
+.hdg-file08:before {
+	content: "\e655";
+}
+
+.hdg-file09:before {
+	content: "\e656";
+}
+
+.hdg-calendar01:before {
+	content: "\e657";
+}
+
+.hdg-calendar02:before {
+	content: "\e658";
+}
+
+.hdg-calendar03:before {
+	content: "\e659";
+}
+
+.hdg-student01:before {
+	content: "\e65a";
+}
+
+.hdg-student02:before {
+	content: "\e65b";
+}
+
+.hdg-graduation-hat:before {
+	content: "\e65c";
+}
+
+.hdg-torch:before {
+	content: "\e65d";
+}
+
+.hdg-certificate:before {
+	content: "\e65e";
+}
+
+.hdg-award01:before {
+	content: "\e65f";
+}
+
+.hdg-award02:before {
+	content: "\e660";
+}
+
+.hdg-flag:before {
+	content: "\e661";
+}
+
+.hdg-award03:before {
+	content: "\e662";
+}
+
+.hdg-award04:before {
+	content: "\e663";
+}
+
+.hdg-psi:before {
+	content: "\e664";
+}
+
+.hdg-omega:before {
+	content: "\e665";
+}
+
+.hdg-star:before {
+	content: "\e666";
+}
+
+.hdg-scroll:before {
+	content: "\e667";
+}
+
+.hdg-owl:before {
+	content: "\e668";
+}
+
+.hdg-art:before {
+	content: "\e669";
+}
+
+.hdg-political-science:before {
+	content: "\e66a";
+}
+
+.hdg-history:before {
+	content: "\e66b";
+}
+
+.hdg-law:before {
+	content: "\e66c";
+}
+
+.hdg-philosopy:before {
+	content: "\e66d";
+}
+
+.hdg-theatre:before {
+	content: "\e66e";
+}
+
+.hdg-languages:before {
+	content: "\e66f";
+}
+
+.hdg-painting:before {
+	content: "\e670";
+}
+
+.hdg-music:before {
+	content: "\e671";
+}
+
+.hdg-music02:before {
+	content: "\e672";
+}
+
+.hdg-music03:before {
+	content: "\e673";
+}
+
+.hdg-music04:before {
+	content: "\e674";
+}
+
+.hdg-ball01:before {
+	content: "\e675";
+}
+
+.hdg-ball02:before {
+	content: "\e676";
+}
+
+.hdg-ball03:before {
+	content: "\e677";
+}
+
+.hdg-football-helmet:before {
+	content: "\e678";
+}
+
+.hdg-paleontology:before {
+	content: "\e679";
+}
+
+.hdg-screen01:before {
+	content: "\e67a";
+}
+
+.hdg-screen02:before {
+	content: "\e67b";
+}
+
+.hdg-screen03:before {
+	content: "\e67c";
+}
+
+.hdg-screen04:before {
+	content: "\e67d";
+}
+
+.hdg-laptop01:before {
+	content: "\e67e";
+}
+
+.hdg-laptop02:before {
+	content: "\e67f";
+}
+
+.hdg-laptop03:before {
+	content: "\e680";
+}
+
+.hdg-laptop04:before {
+	content: "\e681";
+}
+
+.hdg-laptop05:before {
+	content: "\e682";
+}
+
+.hdg-laptop06:before {
+	content: "\e683";
+}
+
+.hdg-tablet01:before {
+	content: "\e684";
+}
+
+.hdg-tablet02:before {
+	content: "\e685";
+}
+
+.hdg-tablet03:before {
+	content: "\e686";
+}
+
+.hdg-tablet04:before {
+	content: "\e687";
+}
+
+.hdg-tablet05:before {
+	content: "\e688";
+}
+
+.hdg-tablet06:before {
+	content: "\e689";
+}
+
+.hdg-smartphone01:before {
+	content: "\e68a";
+}
+
+.hdg-smartphone02:before {
+	content: "\e68b";
+}
+
+.hdg-smartphone03:before {
+	content: "\e68c";
+}
+
+.hdg-folder-online:before {
+	content: "\e68d";
+}
+
+.hdg-pie-chart:before {
+	content: "\e68e";
+}
+
+.hdg-chart-analysis:before {
+	content: "\e68f";
+}
+
+.hdg-pulse:before {
+	content: "\e690";
+}
+
+.hdg-chart01:before {
+	content: "\e691";
+}
+
+.hdg-chart02:before {
+	content: "\e692";
+}
+
+.hdg-chart03:before {
+	content: "\e693";
+}
+
+.hdg-chart04:before {
+	content: "\e694";
+}
+
+.hdg-chart05:before {
+	content: "\e695";
+}
+
+.hdg-newspaper:before {
+	content: "\e696";
+}
+
+.hdg-atom:before {
+	content: "\e697";
+}
+
+.hdg-radiation:before {
+	content: "\e698";
+}
+
+.hdg-molecule01:before {
+	content: "\e699";
+}
+
+.hdg-molecule02:before {
+	content: "\e69a";
+}
+
+.hdg-molecule03:before {
+	content: "\e69b";
+}
+
+.hdg-molecule04:before {
+	content: "\e69c";
+}
+
+.hdg-molecule05:before {
+	content: "\e69d";
+}
+
+.hdg-molecule06:before {
+	content: "\e69e";
+}
+
+.hdg-molecule07:before {
+	content: "\e69f";
+}
+
+.hdg-molecule08:before {
+	content: "\e6a0";
+}
+
+.hdg-light:before {
+	content: "\e6a1";
+}
+
+.hdg-magnet:before {
+	content: "\e6a2";
+}
+
+.hdg-battery:before {
+	content: "\e6a3";
+}
+
+.hdg-temperature:before {
+	content: "\e6a4";
+}
+
+.hdg-water:before {
+	content: "\e6a5";
+}
+
+.hdg-pi:before {
+	content: "\e6a6";
+}
+
+.hdg-formula01:before {
+	content: "\e6a7";
+}
+
+.hdg-formula02:before {
+	content: "\e6a8";
+}
+
+.hdg-formula03:before {
+	content: "\e6a9";
+}
+
+.hdg-formula04:before {
+	content: "\e6aa";
+}
+
+.hdg-formula05:before {
+	content: "\e6ab";
+}
+
+.hdg-formula06:before {
+	content: "\e6ac";
+}
+
+.hdg-geometry01:before {
+	content: "\e6ad";
+}
+
+.hdg-geometry02:before {
+	content: "\e6ae";
+}
+
+.hdg-d:before {
+	content: "\e6af";
+}
+
+.hdg-lab-flask01:before {
+	content: "\e6b0";
+}
+
+.hdg-lab-flask02:before {
+	content: "\e6b1";
+}
+
+.hdg-lab-flask03:before {
+	content: "\e6b2";
+}
+
+.hdg-lab-flask04:before {
+	content: "\e6b3";
+}
+
+.hdg-test-tube01:before {
+	content: "\e6b4";
+}
+
+.hdg-test-tube02:before {
+	content: "\e6b5";
+}
+
+.hdg-test-tube03:before {
+	content: "\e6b6";
+}
+
+.hdg-eye-dropper:before {
+	content: "\e6b7";
+}
+
+.hdg-mortar:before {
+	content: "\e6b8";
+}
+
+.hdg-chemistry-formula:before {
+	content: "\e6b9";
+}
+
+.hdg-flask-burner:before {
+	content: "\e6ba";
+}
+
+.hdg-burner:before {
+	content: "\e6bb";
+}
+
+.hdg-fire:before {
+	content: "\e6bc";
+}
+
+.hdg-skull-bones:before {
+	content: "\e6bd";
+}
+
+.hdg-skull:before {
+	content: "\e6be";
+}
+
+.hdg-biohazard:before {
+	content: "\e6bf";
+}
+
+.hdg-dna:before {
+	content: "\e6c0";
+}
+
+.hdg-dna02:before {
+	content: "\e6c1";
+}
+
+.hdg-dna03:before {
+	content: "\e6c2";
+}
+
+.hdg-genetics01:before {
+	content: "\e6c3";
+}
+
+.hdg-genetics02:before {
+	content: "\e6c4";
+}
+
+.hdg-microscope:before {
+	content: "\e6c5";
+}
+
+.hdg-cell:before {
+	content: "\e6c6";
+}
+
+.hdg-bacteria:before {
+	content: "\e6c7";
+}
+
+.hdg-mitosis:before {
+	content: "\e6c8";
+}
+
+.hdg-syringe:before {
+	content: "\e6c9";
+}
+
+.hdg-bottle:before {
+	content: "\e6ca";
+}
+
+.hdg-pills:before {
+	content: "\e6cb";
+}
+
+.hdg-mouse2:before {
+	content: "\e6cc";
+}
+
+.hdg-frog:before {
+	content: "\e6cd";
+}
+
+.hdg-scalpel:before {
+	content: "\e6ce";
+}
+
+.hdg-heart:before {
+	content: "\e6cf";
+}
+
+.hdg-brain:before {
+	content: "\e6d0";
+}
+
+.hdg-paw:before {
+	content: "\e6d1";
+}
+
+.hdg-flower:before {
+	content: "\e6d2";
+}
+
+.hdg-dinosaur:before {
+	content: "\e6d3";
+}
+
+.hdg-recycle:before {
+	content: "\e6d4";
+}
+
+.hdg-gears:before {
+	content: "\e6d5";
+}
+
+.hdg-tech:before {
+	content: "\e6d6";
+}
+
+.hdg-microchip:before {
+	content: "\e6d7";
+}
+
+.hdg-tools01:before {
+	content: "\e6d8";
+}
+
+.hdg-tools02:before {
+	content: "\e6d9";
+}
+
+.hdg-electricity:before {
+	content: "\e6da";
+}
+
+.hdg-robot-hand:before {
+	content: "\e6db";
+}
+
+.hdg-d-printer:before {
+	content: "\e6dc";
+}
+
+.hdg-d-scanner:before {
+	content: "\e6dd";
+}
+
+.hdg-rapid-prototyping:before {
+	content: "\e6de";
+}
+
+.hdg-robot01:before {
+	content: "\e6df";
+}
+
+.hdg-robot02:before {
+	content: "\e6e0";
+}
+
+.hdg-robot03:before {
+	content: "\e6e1";
+}
+
+.hdg-robot04:before {
+	content: "\e6e2";
+}
+
+.hdg-satellite:before {
+	content: "\e6e3";
+}
+
+.hdg-rocket:before {
+	content: "\e6e4";
+}
+
+.hdg-space-station:before {
+	content: "\e6e5";
+}
+
+.hdg-rocket02:before {
+	content: "\e6e6";
+}
+
+.hdg-space-shuttle:before {
+	content: "\e6e7";
+}
+
+.hdg-rover:before {
+	content: "\e6e8";
+}
+
+.hdg-flying-saucer01:before {
+	content: "\e6e9";
+}
+
+.hdg-flying-saucer02:before {
+	content: "\e6ea";
+}
+
+.hdg-flying-saucer03:before {
+	content: "\e6eb";
+}
+
+.hdg-alien01:before {
+	content: "\e6ec";
+}
+
+.hdg-alien02:before {
+	content: "\e6ed";
+}
+
+.hdg-alien03:before {
+	content: "\e6ee";
+}
+
+.hdg-spacemen:before {
+	content: "\e6ef";
+}
+
+.hdg-spacesuit:before {
+	content: "\e6f0";
+}
+
+.hdg-blaster:before {
+	content: "\e6f1";
+}
+
+.hdg-telescope01:before {
+	content: "\e6f2";
+}
+
+.hdg-telescope02:before {
+	content: "\e6f3";
+}
+
+.hdg-satellite-dish01:before {
+	content: "\e6f4";
+}
+
+.hdg-satellite-dish02:before {
+	content: "\e6f5";
+}
+
+.hdg-telescope03:before {
+	content: "\e6f6";
+}
+
+.hdg-sun:before {
+	content: "\e6f7";
+}
+
+.hdg-planet01:before {
+	content: "\e6f8";
+}
+
+.hdg-planet02:before {
+	content: "\e6f9";
+}
+
+.hdg-planet03:before {
+	content: "\e6fa";
+}
+
+.hdg-planet04:before {
+	content: "\e6fb";
+}
+
+.hdg-comet:before {
+	content: "\e6fc";
+}
+
+.hdg-planet05:before {
+	content: "\e6fd";
+}
+
+.hdg-planet06:before {
+	content: "\e6fe";
+}
+
+.hdg-planet07:before {
+	content: "\e6ff";
+}
+
+.hdg-constellation:before {
+	content: "\e700";
+}
+
+.hdg-planet072:before {
+	content: "\e701";
+}
+
+.hdg-head-exclamation:before {
+	content: "\e702";
+}
+
+.hdg-head-question:before {
+	content: "\e703";
+}
+
+.hdg-head-atom:before {
+	content: "\e704";
+}
+
+.hdg-head-target:before {
+	content: "\e705";
+}
+
+.hdg-head-brain:before {
+	content: "\e706";
+}
+
+.hdg-head-gears:before {
+	content: "\e707";
+}
+
+.hdg-head-recycle:before {
+	content: "\e708";
+}
+
+.hdg-head-idea:before {
+	content: "\e709";
+}
+
+.hdg-head-exchange:before {
+	content: "\e70a";
+}
+
+.hdg-head-hourglass:before {
+	content: "\e70b";
+}
+
+.hdg-head-check:before {
+	content: "\e70c";
+}
+
+.hdg-head-compass:before {
+	content: "\e70d";
+}
+
+.hdg-scientist01:before {
+	content: "\e70e";
+}
+
+.hdg-skill-share:before {
+	content: "\e70f";
+}
+
+.hdg-badge:before {
+	content: "\e710";
+}
+
+.hdg-scientist02:before {
+	content: "\e711";
+}
+
+.hdg-scientist03:before {
+	content: "\e712";
+}
+
+.hdg-scientist04:before {
+	content: "\e713";
+}
+
+.hdg-scientist05:before {
+	content: "\e714";
+}
+
+.hdg-scientist06:before {
+	content: "\e715";
+}
+
+.hdg-scientist07:before {
+	content: "\e716";
+}
+
+.hdg-scientist08:before {
+	content: "\e717";
+}
+
