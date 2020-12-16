@@ -3,12 +3,19 @@ import Form from '../Form'
 import FormField from '../FormField'
 import Button from '../Button'
 import classList from 'utils/classList'
+import {DataColumn, DataTable} from 'components/DataTable'
+import TextField from 'components/TextField'
 type Props = {
     className?: string
 }
 const CreateServiceForm: FC<{}> = ({ children }) => {
-
+    const users = [
+        {name: "user 1", status: 'active', email: "user1@school.com"},
+        {name: "user 2", status: 'inactive', email: "user2@school.com"},
+    ]
     return (
+        <>
+        <h2>Setup Information</h2>
         <Form onSubmit={(data) => {console.log(data)}}  >
             <div className="grid grid-cols-6 gap-6">
             <FormField name="name" description="Name" type="text" className="col-span-6" />
@@ -19,6 +26,38 @@ const CreateServiceForm: FC<{}> = ({ children }) => {
             <FormField name="zip" description="Zip" type="text" className="col-span-1" />
             </div>
         </Form>
+        <h2>Primary Contact</h2>
+        <Form onSubmit={(data) => {console.log(data)}}  >
+            <div className="grid grid-cols-6 gap-6">
+            <FormField name="firstname" description="First Name" type="text" className="col-span-3" />
+            <FormField name="lastname" description="Last Name" type="text" className="col-span-3" />
+            <FormField name="email" description="Email" type="text" className="col-span-6" />
+            <FormField name="phone" description="Phone" type="text" className="col-span-6" />
+            <FormField name="title" description="Title" type="text" className="col-span-4" />
+            </div>
+        </Form>
+        <h2>Payment Methods Available</h2>
+        <Form onSubmit={(data) => {console.log(data)}}  >
+            <div className="grid grid-cols-6 gap-6">
+            <FormField name="firstname" description="First Name" type="text" className="col-span-3" />
+            <FormField name="lastname" description="Last Name" type="text" className="col-span-3" />
+            <FormField name="email" description="Email" type="text" className="col-span-6" />
+            <FormField name="phone" description="Phone" type="text" className="col-span-6" />
+            <FormField name="title" description="Title" type="text" className="col-span-4" />
+            </div>
+        </Form>
+        
+        <h2>Find &amp; Assign Admins</h2>
+        <div className="grid grid-cols-6 gap-6">
+            <TextField name="usersearch" type="text" className="col-span-6" />
+            <Button className="col-start-2 col-span-4">Search</Button>
+        </div>
+        <DataTable items={users}>
+             <DataColumn name={"name"}/>
+             <DataColumn name={"status"}/>
+             <DataColumn name={"email"}/>
+      </DataTable>
+    </>
     )
 }
 export default CreateServiceForm
