@@ -16,6 +16,17 @@ instance.interceptors.request.use(config => {
       Promise.reject(error)
   });
   
+  export type PagedResponse<T> = {
+  page: number;
+  pageSize: number;
+  firstPage: string;
+  lastPage: string;
+  totalPages: number;
+  totalCount: number;
+  nextPage: string;
+  previousPage: string;
+    data: T[]
+  }
   export interface ApiError<T> extends AxiosError<T> {}
   export type ApiResponseError = { code: string, description: string }
   export const apiClient = instance;

@@ -6,4 +6,7 @@
   .btn {
     @apply inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-indigo-100 bg-blue-800 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500
   }
+  .side-nav {
+    background: linear-gradient(157deg, rgba(123,77,221,1) 0%, rgba(59,57,197,1) 12%, rgba(59,57,197,1) 90%, rgba(76,148,249,1) 100%);
+  }
 }

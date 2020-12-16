@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import SiteLayout from '../components/layouts/SiteLayout'
 import Button from '../components/Button'
+import Panel from '../components/Panel'
 import { login } from '../services/AuthServices'
 import { DataColumn, DataTable } from 'components/DataTable'
 const HomePage = () => {
@@ -39,6 +40,9 @@ const HomePage = () => {
     }
     return (
         <SiteLayout>
+          <Panel title="Account Services">
+            <div>hello</div>
+          </Panel>
            <DataTable items={data}>
              <DataColumn name={"color"}/>
            </DataTable>

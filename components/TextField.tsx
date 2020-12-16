@@ -9,7 +9,7 @@ type Props = {
 }
 const TextField: FC<Props> = ({ name, type, children, className }) => {
     const baseStyles = "mt-1 p-2 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm text-base border-gray-300 rounded-md"
-    const {register} = useCampusxForm();
+    const {register} = useCampusxForm() ?? {};
     return (
         <input ref={register} type={type} name={name} className={classList(baseStyles, className)} />
     )

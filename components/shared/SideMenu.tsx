@@ -18,7 +18,7 @@ const MenuItem: FC<MenuItemProps> = ({icon, text, route}) => {
 }
 const SideMenu: FC<{}> = ({ children }) => {
     return (
-    <div className="bg-gradient-to-r from-purple-700 via-blue-800 via-indigo-800 to-blue-600 flex flex-shrink-0">
+    <div className="side-nav flex flex-shrink-0">
         <div className="flex flex-col w-32">
           <div className="flex flex-col flex-grow pt-5 pb-4 overflow-y-auto">
             <div className="flex items-center flex-shrink-0 px-4">
